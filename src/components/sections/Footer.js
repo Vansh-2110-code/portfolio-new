@@ -293,7 +293,7 @@ const BackToTop = styled.button`
   }
 `;
 
-const navLinks = ['about', 'skills', 'projects', 'testimonials', 'contact'];
+const navLinks = ['about', 'skills', 'experience', 'projects', 'testimonials', 'contact'];
 
 export default function Footer() {
   const { t, isRTL } = useLanguage();
@@ -307,6 +307,7 @@ export default function Footer() {
   const navLabels = {
     about: t('nav.about'),
     skills: t('nav.skills'),
+    experience: t('nav.experience') || 'Experience',
     projects: t('nav.projects'),
     testimonials: t('nav.testimonials'),
     contact: t('nav.contact'),

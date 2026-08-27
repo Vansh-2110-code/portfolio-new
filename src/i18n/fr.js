@@ -6,6 +6,7 @@ export const fr = {
     nav: {
         about: 'À propos',
         skills: 'Compétences',
+        experience: 'Expérience',
         projects: 'Projets',
         testimonials: 'Témoignages',
         contact: 'Contact',
@@ -48,6 +49,72 @@ export const fr = {
         backendDesc: 'Développement d\'APIs évolutives, bases de données relationnelles SQL, automatisations de flux et architectures cloud CRM/ATS.',
         devops: 'Data Analytics & Power BI',
         devopsDesc: 'Analyse exploratoire des données (EDA), pipelines ETL avec Pandas & NumPy, et conception de tableaux de bord décisionnels interactifs avec Power BI.',
+    },
+
+    // Experience
+    experience: {
+        label: 'Parcours & Impact',
+        title: 'Expérience Professionnelle',
+        description: 'Stages, déploiements cloud en production, ingénierie Machine Learning et leadership.',
+        filterAll: 'Toutes les Expériences',
+        filterWork: 'Ingénierie & ML',
+        filterLeadership: 'Leadership',
+        liveDeploy: 'Déploiement en Production',
+        viewLive: 'Voir le Système en Direct ↗',
+        items: [
+            {
+                role: 'Stagiaire Développeur Logiciel',
+                company: 'Sanna Innovations',
+                period: 'Juin 2026 – Août 2026',
+                location: 'Indore, Inde',
+                highlight: 'Déploiements d\'Entreprise (ATS & CRM)',
+                metric: 'SaaS en Production',
+                points: [
+                    'Architecture et déploiement de plateformes cloud comprenant Astra CRM, AstraFlow et un système ATS pour Whitehorse Manpower.',
+                    'Développement des plateformes officielles de The Astra AI et Sanna Innovations avec flux d\'analyse en temps réel.',
+                    'Automatisation du suivi des candidatures et intégration de bases de données PostgreSQL avec Next.js et Node.js.'
+                ]
+            },
+            {
+                role: 'Stagiaire Développeur Logiciel',
+                company: 'Lintcloud Technologies',
+                period: 'Jan 2026 – Mars 2026',
+                location: 'Indore, Inde',
+                highlight: 'Optimisation Backend & Workflows',
+                metric: '-35% de Latence',
+                points: [
+                    'Contribution aux services backend, applications orientées données et optimisation des flux de travail.',
+                    'Optimisation des requêtes PostgreSQL, réduisant la latence des APIs de 35%.',
+                    'Collaboration étroite avec les équipes d\'ingénierie sur l\'intégration système et le déploiement continu.'
+                ]
+            },
+            {
+                role: 'Stagiaire IA & Machine Learning',
+                company: 'InLighnX Global Pvt. Ltd.',
+                period: 'Juil 2025 – Août 2025',
+                location: 'Indore, Inde',
+                highlight: 'Modèle de Détection de Fraude (0.97 AUC)',
+                metric: 'Score AUC 0.97',
+                points: [
+                    'Conception et évaluation d\'un modèle de détection de fraude par Machine Learning atteignant un score exceptionnel de 0.97 AUC.',
+                    'Analyse exploratoire des données (EDA), ingénierie des caractéristiques et traitement des anomalies sur grands volumes de données.',
+                    'Utilisation de Python, Pandas, NumPy et Scikit-learn pour évaluer des classifieurs d\'ensemble.'
+                ]
+            },
+            {
+                role: 'Président & Responsable Technique',
+                company: 'Chapitre Étudiant JU ACM',
+                period: '2024 – Présent',
+                location: 'Joy University',
+                highlight: 'Leadership Technique & Mentorat',
+                metric: '150+ Étudiants Formés',
+                points: [
+                    'Direction du chapitre étudiant officiel de l\'ACM, organisation d\'ateliers techniques et de masterclasses en IA/ML.',
+                    'Mentorat de plus de 150 étudiants en algorithmique, apprentissage automatique et développement full-stack.',
+                    'Organisation de hackathons universitaires favorisant l\'innovation et les contributions open-source.'
+                ]
+            }
+        ]
     },
 
     projects: {
